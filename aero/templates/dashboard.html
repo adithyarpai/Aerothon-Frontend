@@ -1,0 +1,16 @@
+{% extends 'main.html' %}
+{% load static %}
+{% block content %}
+<link rel="stylesheet" href="{% static 'css/styles.css' %}">
+<section >
+    <div class="title">
+    <h1>Welcome.</h1>
+    <div class="col-lg-6 register">
+        <button type="button" class="btn btn-dark btn-lg signup-button">Sign-up</button>
+        <button type="button" class="btn btn-outline-light btn-lg login-button">Login</button>
+    </div>
+    </div>
+</section>
+
+{% comment %} <img class="plane" src="{% static 'images\plane.jpg' %}" alt="plane"> {% endcomment %}
+{% endblock content %}
